@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $font-primary;
+}
+
+
+.btn-custom {
+    background: rgba(0, 0, 0, 0);
+    color: #fff;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: .5rem 1rem;
+
+    &:hover {
+        background: #fff;
+        color: $color-dark;
+    }
+}
+
+.btn-custom-outline {
+    background: #fff;
+    color: $color-dark;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: .5rem 1rem;
+
+    &:hover {
+        background: rgba(0, 0, 0, 0);
+        color: #fff;
+    }
+}
+
+.btn-custom-outline-dark {
+    background: #fff;
+    color: $color-dark;
+    border-radius: 20px;
+    border: 1px solid $color-dark;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: .5rem 1rem;
+}
+
+.liked {
+    color: $color-pink;
+}
